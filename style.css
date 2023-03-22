@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {margin: 0;
+     font-family: 'Roboto', sans-serif;
+}
+
+ul { 
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 1px;
+    font-weight: bold;
+    border: 0;
+    background: darkslateblue;
+    color: white;
+}
+
+header {
+    background: no-repeat center/cover url(imagens/Tailandia-Wat-Phra-Kaew.jpg);
+    height: calc(100vh - 200px);
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 9px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
